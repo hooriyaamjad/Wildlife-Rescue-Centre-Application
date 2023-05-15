@@ -34,6 +34,8 @@ The program should not exit without generating a schedule and getting confirmati
     
 ## How do I run the application?
 
+First create a MySQL user with Username: oop, and Password: password. Grant all privileges to this user. Then create an schema in your MySQL database using the provided treatments.sql in lib\treatments.sql.
+
 **On Windows from Command Line:**
 
 >javac -cp .;lib\mysql-connector-java-8.0.23.jar;. edu\ucalgary\oop\GUIController.java
